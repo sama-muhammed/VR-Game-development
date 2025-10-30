@@ -72,4 +72,11 @@ Avaturn SDK (import manually if needed)
 
 4. Connect your VR headset (Meta Quest or compatible) and press Play to run the simulation.
 
-   
+# Resources & References
+- Unity XR Interaction Toolkit – Core interaction framework
+- Avaturn SDK – Customizable avatars
+- Unity Asset Store – 3D models and textures
+- Blender – For custom object and environment modeling
+- Research Literature:
+1. “Virtual Reality in Cognitive Rehabilitation of Alzheimer’s Disease” – Frontiers in Aging Neuroscience
+2.“Neuroplasticity Through Immersive Virtual Reality Training” – Nature Human Behavior 

@@ -22,3 +22,54 @@ Voice Interaction – The caregiver communicates naturally, referencing the pati
 Touch & Drag Interactions – Users interact with virtual objects using hand-tracking and controller-based gestures.
 Progress Tracking – Integrated cognitive performance analysis to monitor patient improvement over time.
 Therapeutic Focus – Designed to reduce anxiety, improve focus, and foster emotional connection through multisensory engagement.
+
+# Technical Implementation
+Game Engine:	Unity
+Language:	C#
+VR Platform:	Meta Quest / OpenXR
+3D Modeling & Animation:	Blender, Unity Asset Store resources
+Avatars:	Avaturn SDK for caregiver and patient personalization
+Cognitive Modules:	Dishwashing simulation, clock-drawing test, caregiver dialogue
+Interaction Framework:	Unity XR Interaction Toolkit
+Camera System:	Cinemachine
+Audio System:	3D spatial sound synchronized with caregiver voice lines
+
+# Folder Structure
+https://drive.google.com/drive/folders/1_x4qw7uB1FH8cW89Q3NIiwBpthrgWFIj?usp=sharing
+│
+├── Assets/                # Game scenes, models, scripts, textures, and audio
+├── Packages/              # Unity package dependencies
+├── ProjectSettings/       # Unity build and configuration settings
+
+# Research Context
+This project is part of an interdisciplinary neuroscience study exploring how multisensory VR environments can stimulate cognitive and emotional functions in Alzheimer’s patients.
+The design draws on clinical cognitive therapy principles, integrating them into an interactive, game-like format that patients can use independently or with caregiver supervision.
+
+Through the combination of environmental familiarity, motor interaction, and personalized caregiver communication, the system aims to:
+- Rebuild neural pathways related to memory and routine.
+- Reduce emotional isolation and cognitive stress.
+- Strengthen neuroplasticity through active sensory engagement.
+
+# Future Development
+Integration of haptic feedback for realistic touch sensations.
+AI-driven caregiver responses for emotional, adaptive conversations.
+Connection with biometric sensors to monitor heart rate and stress.
+Companion mobile app for caregivers to adjust activities and track progress.
+Optimization for low-cost VR hardware to ensure accessibility.
+
+# Installation
+
+1. Clone this repository:
+git clone https://github.com/sama-muhammed/VR-ISEF.git
+
+2. Open the project in Unity Hub (recommended version: Unity 2022 or later).
+  
+3. Make sure the following Unity packages are installed:
+XR Interaction Toolkit
+OpenXR Plugin
+Cinemachine
+Avaturn SDK (import manually if needed)
+
+4. Connect your VR headset (Meta Quest or compatible) and press Play to run the simulation.
+
+   
